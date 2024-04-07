@@ -1,0 +1,31 @@
+1. install fonts for iterm2
+curl -sS https://webi.sh/nerdfont | sh
+mv ~/Library/Fonts/* /Library/Fonts
+iterm2 select text->font type
+
+2. install deps
+sudo apt install fd-find
+sudo apt install fswatch
+sudo apt install npm
+sudo apt install scoop
+sudo apt install tree
+sudo apt install vim-gtk3
+sudo apt install xclip
+sudo apt-get install -y cmake libgtest-dev && cd /usr/src/gtest && sudo cmake . && sudo make && sudo mv lib/libgtest* /usr/lib/ && cd -
+sudo apt-get install -y git g++ make libssl-dev libgflags-dev libprotobuf-dev libprotoc-dev protobuf-compiler libleveldb-dev
+sudo apt-get install -y libgoogle-perftools-dev
+sudo apt-get install -y libsnappy-dev
+sudo apt-get install automake bison flex g++ git libboost-all-dev libevent-dev libssl-dev libtool make pkg-config
+sudo apt-get install clangd
+sudo apt-get install ninja-build gettext cmake unzip curl build-essential
+sudo apt install fzf
+sudo apt-get install ripgrep
+
+* install lua-language-server, clone repo, export path
+
+3. install nvim
+* clone neovim repo
+* build with dir to ~/neovim
+* make install
+* export nvim path, export PATH=$HOME/neovim/bin:$LUA_LSP/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.fzf/bin
+
